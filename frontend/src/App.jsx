@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("test-frontend-bakckend-vercel-fq3jlv9ai-amg16.vercel.app")
+    fetch("test-frontend-bakckend-vercel-fq3jlv9ai-amg16.vercel.app/")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
