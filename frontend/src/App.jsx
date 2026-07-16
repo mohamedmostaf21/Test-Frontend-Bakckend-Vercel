@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://test-frontend-bakckend-vercel-zgua-rncbohcyn-amg16.vercel.app/")
+      .get("https://localhost:5000")
       .then((response) => {
         setMessage(response.data.message);
       })
